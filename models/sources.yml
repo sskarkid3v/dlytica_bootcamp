@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_retail
+    database: retail
+    schema: public
+    tables:
+      - name: customers
+        description: "This table contains customer information."
+      - name: products
+        description: "This table contains product information." 
+      - name: orders
+        description: "This table contains order information."
